@@ -51,7 +51,8 @@ enum class Interrupt_target
     CPU4 = 0x10,
     CPU5 = 0x20,
     CPU6 = 0x40,
-    CPU7 = 0x80
+    CPU7 = 0x80,
+    ALL
 };
 
 enum class Interrupt_security
